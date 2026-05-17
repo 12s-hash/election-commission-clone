@@ -1,0 +1,79 @@
+body {
+    background-color: #f8f9fa;
+}
+.headimg{
+    height: 130px;
+    width: 100%;
+    background-image: linear-gradient(to right,  rgba(0, 0, 255, 0.992) , black);
+}
+.header-space {
+    height: 40px;
+    background-color: #f1f1f1; 
+    position: relative;
+}
+
+.home-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 18px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.section {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+.section-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid #ccc;
+    color: #000;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-check-label {
+    font-weight: normal;
+}
+
+.text-primary {
+    color: hwb(211 0% 0%) !important;
+}
+
+.btn-primary {
+    background-color: hwb(211 0% 0%);
+    border-color: hwb(211 0% 0%);
+    padding: 10px 50px;
+    font-size: large;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    padding: 10px 50px;
+    font-size: large;
+}

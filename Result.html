@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election Results</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+.headimg{
+    height: 130px;
+    width: 100%;
+    background: linear-gradient(69.5deg, rgb(251, 0, 0) -0.5%, rgb(3, 10, 252) 97.4%);
+}
+
+h2 {
+    color: #333;
+}
+
+.vl{
+    height: 3px;
+    width:100px;
+    background-color: black;
+    margin: 5px 0px 20px 0px;
+}
+.result-card {
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.result-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.result-card p {
+    margin: 5px 0;
+}
+
+.won-text {
+    font-weight: bold;
+    color: green;
+    font-size: 18px;
+}
+
+.candidate {
+    color: #008cba;
+    font-size: 16px;
+}
+
+.party {
+    font-size: 14px;
+    color: #666;
+}
+
+.orange-border {
+    border-left: 5px solid orange;
+}
+
+.blue-border {
+    border-left: 5px solid blue;
+}
+
+.cyan-border {
+    border-left: 5px solid cyan;
+}
+
+.red-border {
+    border-left: 5px solid red;
+}
+
+.purple-border {
+    border-left: 5px solid purple;
+}
+
+.result-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.orange-border:hover {
+    background-color: #ffcc80;
+}
+
+.blue-border:hover {
+    background-color: #80d8ff;
+}
+
+.cyan-border:hover {
+    background-color: #80deea;
+}
+
+.red-border:hover {
+    background-color: #ff8a80;
+}
+
+.purple-border:hover {
+    background-color: #ce93d8;
+}
+
+    </style>
+    <div class="headimg">
+        <center><a href="main.html" style="text-decoration: none;"><img src="lax.jpg" height="100px" width="400px" style="margin: 15px 0px;"></a></center>
+    </div>
+    <div class="container my-4">
+        <h2 class="text-center mb-4">Bye Election to Assembly Constituencies: Results July-2024</h2>
+        <center><div class="vl"></div></center>
+        <div class="row justify-content-center" style="margin-top: 20px;">
+            <!-- First Row -->
+            <div class="col-md-4">
+                <div class="result-card orange-border">
+                    <h3>RUPAULI (60)</h3>
+                    <p>Bihar</p>
+                    <p class="won-text">WON</p>
+                    <p class="candidate">SHANKAR SINGH</p>
+                    <p class="party">Independent</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="result-card blue-border">
+                    <h3>DEHRA (10)</h3>
+                    <p>Himachal Pradesh</p>
+                    <p class="won-text">WON</p>
+                    <p class="candidate">KAMLESH THAKUR</p>
+                    <p class="party">Indian National Congress</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="result-card cyan-border">
+                    <h3>HAMIRPUR (38)</h3>
+                    <p>Himachal Pradesh</p>
+                    <p class="won-text">WON</p>
+                    <p class="candidate">ASHISH SHARMA</p>
+                    <p class="party">Bharatiya Janata Party</p>
+                </div>
+            </div>
+            <!-- Second Row -->
+            <div class="col-md-4">
+                <div class="result-card red-border">
+                    <h3>NALAGARH (51)</h3>
+                    <p>Himachal Pradesh</p>
+                    <p class="won-text">WON</p>
+                    <p class="candidate">HARDEEP SINGH BAWA</p>
+                    <p class="party">Indian National Congress</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="result-card purple-border">
+                    <h3>AMARWARA (123)</h3>
+                    <p>Madhya Pradesh</p>
+                    <p class="won-text">WON</p>
+                    <p class="candidate">KAMLESH PRATAP SHAH</p>
+                    <p class="party">Bharatiya Janata Party</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="result-card cyan-border">
+                    <h3>JALANDHAR WEST (34)</h3>
+                    <p>Punjab</p>
+                    <p class="won-text">WON</p>
+                    <p class="candidate">MOHINDER BHAGAT</p>
+                    <p class="party">Aam Aadmi Party</p>
+                </div>
+            </div>
+            <!-- Third Row -->
+            <div class="col-md-4">
+                <div class="result-card orange-border">
+                    <h3>VIKRAVANDI (75)</h3>
+                    <p>Tamil Nadu</p>
+                    <p class="won-text">WON</p>
+                    <p class="candidate">ANNIYUR SIVA</p>
+                    <p class="party">Dravida Munnetra Kazhagam</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="result-card blue-border">
+                    <h3>BADRINATH (4)</h3>
+                    <p>Uttarakhand</p>
+                    <p class="won-text">WON</p>
+                    <p class="candidate">LAKHAPAT SINGH BUTOLA</p>
+                    <p class="party">Indian National Congress</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="result-card purple-border">
+                    <h3>RAIGANJ (35)</h3>
+                    <p>West Bengal</p>
+                    <p class="won-text">WON</p>
+                    <p class="candidate">KRISHNA KALYANI</p>
+                    <p class="party">All India Trinamool Congress</p>
+                </div>
+            </div>
+            <!-- Fourth Row -->
+            <div class="col-md-4">
+                <div class="result-card cyan-border">
+                    <h3>BAGDA (94)</h3>
+                    <p>West Bengal</p>
+                    <p class="won-text">WON</p>
+                    <p class="candidate">MADHUPARNA THAKUR</p>
+                    <p class="party">All India Trinamool Congress</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="result-card orange-border">
+                    <h3>MANIKTALA (167)</h3>
+                    <p>West Bengal</p>
+                    <p class="won-text">WON</p>
+                    <p class="candidate">SUPTI PANDEY</p>
+                    <p class="party">All India Trinamool Congress</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="result-card blue-border">
+                    <h3>MANGLAUR (33)</h3>
+                    <p>Uttarakhand</p>
+                    <p class="won-text">WON</p>
+                    <p class="candidate">QAZI MOHAMMAD NIZAMUDDIN</p>
+                    <p class="party">Indian National Congress</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Election Commission</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="searchinelectoralpoll.css">
+  <!-- Custom Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style=" background-image: linear-gradient(to right,  rgba(0, 0, 255, 0.992) , black);">
+  <a href="main.html" style="text-decoration: none;">
+    <img src="mvh.png" height="50" alt="Logo" style=" background-image: linear-gradient(to right,  rgba(0, 0, 255, 0.992) , black);">
+  </a>
+</nav>
+
+<!-- Main Content -->
+<div class="container-fluid">
+  <div class="row">
+    <!-- Side Navigation -->
+    <div class="col-md-3 sidebar">
+      <div class="list-group">
+        <a href="https://voters.eci.gov.in/" class="list-group-item list-group-item-action">
+          <h6>ऑनलाइन आवेदन</h6>
+          <h6>/APPLY ONLINE</h6>
+        </a>
+        <button class="list-group-item list-group-item-action" style="background-color: rgba(197, 197, 197, 0.318);">
+          <h6 >ईपीआईसी द्वारा खोजें/Search by EPIC</h6>
+        </button>
+        <button class="list-group-item list-group-item-action" >
+          <a href="searchbydetails.html" style="text-decoration: none;"><h6>विवरण द्वारा खोजें/ Search by Details</h6></a>
+        </button>
+        <button class="list-group-item list-group-item-action">
+          <a href="Searchbymobile.html" style="text-decoration: none;"><h6 >मोबाइल द्वारा खोजें / Search by Mobile</h6></a>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Main Content Area -->
+    <div class="col-md-9">
+      <div class="jumbotron">
+        <h1 class="display-4">SEARCH IN ELECTORAL POLL</h1>
+        <!-- Search Form -->
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" id="epicNumber" placeholder="Your EPIC Number">
+          </div>
+          <div class="form-group">
+            <select class="form-control">
+              <option disabled selected>Select Your State</option>
+              <option>Andaman and Nicobar Islands</option>
+              <option>Andhra Pradesh</option>
+              <option value="sikh">Arunachal Pradesh</option>
+              <option value="other">Assam</option>
+              <option value="other">Chandigarh</option>
+              <option value="other">Chhattisgarh</option>
+              <option value="other">Dadra and Nagar Haveli and
+                Daman & Diu</option>
+              <option value="other">Goa</option>
+              <option value="other">Gujarat</option>
+              <option value="other">Haryana</option>
+              <option value="other">Himachal Pradesh</option>
+              <option value="other">Jammu & Kashmir</option>
+              <option value="other">Jharkhand</option>
+              <option value="other">Karnataka</option>
+              <option value="other">Kerala</option>
+              <option value="other">Ladakh</option>
+              <option value="other">Lakshadweep</option>
+              <option value="other">Madhya Pradesh</option>
+              <option value="other">Maharashtra</option>
+              <option value="other">Manipur</option>
+              <option value="other">Meghalaya</option>
+              <option value="other">Mizoram</option>
+              <option value="other">Nagaland</option>
+              <option value="other">The Government of NCT of Delhi</option>
+              <option value="other">Odisha</option>
+              <option value="other">Puducherry</option>
+              <option value="other">Punjab</option>
+              <option value="other">Rajasthan</option>
+              <option value="other">Sikkim</option>
+              <option value="other">Tamil Nadu</option>
+              <option value="other">Telangana</option>
+              <option value="other">Tripura</option>
+              <option value="other">Uttarakhand</option>
+              <option value="other">Uttar Pradesh</option>
+              <option value="other">West Bengal</option>
+              <!-- Add options for all states -->
+            
+              <!-- Add more options here -->
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">SEARCH</button>
+          <button type="reset" class="btn btn-secondary">CLEAR</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+   
+  </div>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
